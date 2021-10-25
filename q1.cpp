@@ -3,6 +3,7 @@
 
 using namespace std;
 
+// Assignment 4 - Exercise 1
 class GasPump 
 {
 	private:
@@ -40,11 +41,11 @@ class GasPump
 			amountDispensed = 0.0;
 			amountCharged = 0.0;
 		}
-
 };
 
 int main()
 {
+	// Assignment 4 - Exercise 1
 	GasPump pump;
 	char pumpAgain;
 	double cpg, time;
