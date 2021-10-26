@@ -7,9 +7,9 @@ class Temperature
 {
 	private:
 		double degreesKelvin,
-			   degreesFahrenheit,
-			   degreesCelsius,
-			   inputTemp;
+		       degreesFahrenheit,
+		       degreesCelsius,
+		       inputTemp;
 
 	public:
 		void setTempKelvin(double degreesKelvin) 
@@ -46,7 +46,6 @@ class Temperature
 int main() 
 {
 	// Assignment 4 - Exercise 2
-
 	Temperature tempConversion;
 	char convertAgain;
 	double input;
