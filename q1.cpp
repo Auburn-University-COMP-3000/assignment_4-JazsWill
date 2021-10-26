@@ -8,9 +8,9 @@ class GasPump
 {
 	private:
 		double amountDispensed, 
-			   amountCharged, 
-			   costPerGallon,
-			   secondsDispensed;
+		       amountCharged, 
+		       costPerGallon,
+		       secondsDispensed;
 
 	public:
 		double getAmountDispensed() 
@@ -62,9 +62,9 @@ int main()
 		cout << "\nTigerTown Gas";
 		cout << "\nNumber of gallons pumped: " << pump.getAmountDispensed();
 		cout << "\nCost per gallon of gas: $" << fixed << setprecision(2) << pump.getCostPerGallon();
-		cout << "\nTotal Cost: $" << fixed << setprecision(2) << pump.getAmountCharged();
+		cout << "\nTotal Cost: $" << fixed << setprecision(2) << pump.getAmountCharged() << "\n";
 
-		cout << "\nThank you for pumping with TigerTown Gas! Would you like to pump again? ";
+		cout << "\nThank you for pumping with TigerTown Gas! Would you like to pump again (Y/N)? ";
 		cin >> pumpAgain;
 
 		if ((pumpAgain == 'Y') || (pumpAgain == 'y'))
