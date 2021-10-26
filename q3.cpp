@@ -54,6 +54,8 @@ int main()
 	vector <Player> GamePlay;
 	const int max = 10;
 
+	cout << "\nExercise 3";
+	
 	while ((menu >= 1) || (menu <= 5))
 	{
 		cout << "\nWelcome Player!!\n";
@@ -159,7 +161,7 @@ int main()
 					}
 				}
 
-				cout << "The player: " << nameAndScore << " was not found in the Player List.\n";
+				cout << "The player entered cannot be found in the Player List.\n";
 				break;
 			}
 			case 5:
