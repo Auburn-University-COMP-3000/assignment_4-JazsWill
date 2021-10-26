@@ -259,8 +259,10 @@ int main()
 
 		testMonth.getMonthByName(cin);
 		cout << endl;
-		testMonth.outputMonthName(cout); cout << " ";
-		testMonth.outputMonthNumber(cout); cout << endl;
+		testMonth.outputMonthName(cout); 
+		cout << " ";
+		testMonth.outputMonthNumber(cout); 
+		cout << endl;
 
 		cout << "Do you want to test the program again?: ";
 		cin >> testAgain;
